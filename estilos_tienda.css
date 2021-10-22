@@ -1,0 +1,230 @@
+/* SELECTORES DE ETIQUETA */
+
+body{
+    background-color: #fffacd;;
+}
+
+h1 {
+    color:rgb(29, 29, 5);
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px black;
+}
+
+h2 {
+    color:whitesmoke;
+    clear:both;
+    text-align: center;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+#elesto {
+    padding-bottom: 20px;
+}
+
+.barraMenu{
+   margin-left: 350px;
+}
+
+.barraMenu li {
+    float: left;
+    margin: 2px;
+    padding: 4px;
+    list-style-type: none;
+    font-size:2em;
+    }
+  
+.barraMenu li a {
+    margin: 1px;
+    color: tomato;
+    text-align: center;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    }
+  
+.barraMenu li a:hover, horizontalNIVEL1rojo li a:active {
+    color:  brown;
+    background-color: rgb(233, 216, 141);
+    font-style: italic;
+    }
+
+#superiorIndividual {
+    width: 100%;
+
+    }
+
+#superiorMenu {
+    width: 100%;
+    position: absolute;
+    background-color: lemonchiffon;
+    margin-bottom: 100px;
+    }
+
+#logo {
+    width: 120px;
+    height: 56px;
+    }
+
+.siguiente {
+    clear:both;
+}
+
+nav figure {
+    float:left;
+    }
+
+.barraFooter li {
+    margin-top:20px;
+} 
+.logoFooter {
+    margin-top:-10px!important;
+}
+
+/* FORMULARIOS */
+
+textarea {
+    resize:none;
+    border-radius:20px;
+    background-color: rgb(255, 247, 133);
+    }
+
+.formularioContacto {
+    border: 1px solid rgb(235, 78, 5);
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 5px;
+    width: 450px;
+    min-height: 300px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.mapaGoogle {
+    border: 1px solid rgb(235, 78, 5);
+    border-radius: 30px;
+    margin-left: 50px;
+
+}
+
+label {
+    color:rgb(212, 80, 131);
+    font-family:Comic Sans MS, sans-serif;
+    font-size:1.6em;
+}
+
+input {
+    border-radius: 15px;
+    border: 2px red inherit;
+    font-size:1.6em;
+
+}
+#btnEnviar {
+    background-color: yellowgreen;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 150px;
+    font-size:1.8em;
+}
+
+/* TEXTOS */
+
+#titulorojo {
+    color:red;
+}
+
+.logueateIndex {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.4em;
+    text-shadow: 0.1em 0.1em rgb(247, 138, 95);
+    padding-top: 20px;
+}
+
+.logueate {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    text-shadow: 0.1em 0.1em rgb(247, 138, 95);
+    padding-top:20px;
+}
+
+/* IMAGENES */
+
+#galeria img  {
+    width: 286px;
+    height: 400px;
+    border:1px solid black;
+    margin-left:30px
+}
+
+.muestrario {
+    text-align: center;
+    }
+
+.imgIndex{
+    border-radius:20px;
+    border: 1px solid black;
+    margin-bottom:10px;
+}
+
+.imgSecciones {
+    border-radius:20px;
+    border: 1px solid black;
+    margin-left:100px;
+}
+
+.igor {
+    border: 1px solid rgb(235, 78, 5);
+    border-radius: 30px;
+    margin-left: 70px;
+    width: 500px;
+
+}
+
+/* CARRITO DE LA COMPRA Y SUS BOTONES */
+
+.imgCarrito{
+    height: 40px;
+    padding-bottom: 5px;
+    margin-left:10px;
+    margin-top:2px;
+}
+.divCarrito{
+    width: 80px;
+    margin-right: 10px;
+    margin-left:200px;
+    margin-top:7px;
+    border-radius:20px;
+    background-color:  black;
+}
+
+.labelCarrito {
+    margin-top:2px;
+    color:plum;
+    font-size: 1.6em;
+}
+
+.imgBotonPapelera {
+    margin-top:1px;
+    border: none!important;
+    width: 40px!important;
+    height: 40px!important;
+}
+
+.botonComprar{
+    border: 1px inherit black;
+    border-radius:15px;
+    background-color: pink;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    margin-top:5px;
+    margin-bottom:10px;
+    margin-left: 30px;
+}
