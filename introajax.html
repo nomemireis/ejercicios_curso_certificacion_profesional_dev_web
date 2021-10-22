@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Prueba AJAX</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        function llamadaAjax() {
+            var nom = $("#nombre").val();
+            $.ajax({
+                url: "procesarAjax.php",// HAY QUE PONER LAS COMAS ENTRE PARÁMETROS
+                data: { // SE PUEDE PASAR POR LA URL procesarAjax.php?nombre=Angel
+                    "nombre": nom,
+                    "clave": $("#clave").val(),
+                }, // HAY QUE PONER LAS COMAS ENTRE PARÁMETROS
+                type: "GET",
+                success: function(resultado) {
+                        $("#contenedor").append(resultado);
+                },// HAY QUE PONER LAS COMAS ENTRE PARÁMETROS
+                error: function(){
+                    $("#contenedor").append("ERROR<br/>");
+                }
+            });
+        } //    NO USAR LA ETIQUETA FORM NO USAR LA ETIQUETA FORM NO USAR LA ETIQUETA FORM
+        // PARA QUE NO SE RECARGUE LA PAGINA -  Y PONER ID SIEMPRE
+    </script>
+</head>
+<body>
+    <h1>Prueba AJAX</h1>
+    <input type="text" id="nombre" name="nombre"/><br/>
+    <input type="password" id="clave" name="clave"/>
+    <button onclick="llamadaAjax()" >Haz llamada a funcion</button>
+    
+    <div id="contenedor">
+    </div>
+</body>
+</html>
